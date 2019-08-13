@@ -1,0 +1,30 @@
+{
+  "name": "aws-signature",
+  "version": "1.0.0-rc1",
+  "description": "Module to calculate aws signature",
+  "main": "dist/api/signer.js",
+  "scripts": {
+    "build": "rm -rf dist && tsc",
+    "test": "mocha -r ts-node/register tests/**/*.spec.ts"
+  },
+  "keywords": [
+    "aws",
+    "signature",
+    "sigv4"
+  ],
+  "author": "chaitanya.garikipati123@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "source-map-support": "^0.5.13",
+    "@types/chai": "^4.2.0",
+    "@types/mocha": "^5.2.7",
+    "@types/node": "^12.7.1",
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0",
+    "ts-loader": "^6.0.4",
+    "ts-node": "^8.3.0",
+    "tslint": "^5.18.0",
+    "typescript": "^3.5.3"
+  },
+  "dependencies": {}
+}
